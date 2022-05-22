@@ -1,0 +1,163 @@
+.content {
+  margin: 2.5rem 1rem 1rem;
+  background: #fff;
+  border-radius: 1rem;
+  color: black;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+
+  form {
+    margin: 2rem 15rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-flow: row;
+  }
+
+  .titleDiv {
+    width: 100%;
+    height: 5rem;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    b {
+      margin: 0 1rem;
+    }
+
+    .createTeamTitle {
+      color: purple;
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+  }
+
+  .title1 {
+    display: flex;
+    justify-content: center;
+
+    font-weight: 600;
+    color: rgb(182, 182, 182);
+    margin-top: 1rem;
+  }
+
+  .section1 {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column;
+    margin-right: 4rem;
+
+    .input {
+      box-shadow: 0 0 0 0;
+      border: 1px solid black;
+      outline: 0;
+      border-radius: 0.25rem;
+
+      width: 30rem;
+
+      font-size: small;
+      padding: 0.5rem 0.5rem;
+    }
+
+    .input::placeholder {
+      color: rgb(182, 182, 182);
+    }
+
+    textarea {
+      box-shadow: 0 0 0 0;
+      border: 1px solid black;
+      outline: 0;
+
+      border-radius: 0.25rem;
+
+      width: 30rem;
+
+      font-size: small;
+      padding: 0.5rem 0.5rem;
+    }
+
+    .input:focus {
+      box-shadow: 0 0 0 0;
+      border: 1px solid purple;
+      outline: 0;
+    }
+
+    textarea:focus {
+      box-shadow: 0 0 0 0;
+      border: 1px solid purple;
+      outline: 0;
+    }
+  }
+
+  .section2 {
+    .input {
+      box-shadow: 0 0 0 0;
+      border: 1px solid black;
+      outline: 0;
+      border-radius: 0.25rem;
+
+      width: 30rem;
+
+      font-size: small;
+      padding: 0.5rem 0.5rem;
+    }
+
+    .input::placeholder {
+      color: rgb(182, 182, 182);
+    }
+
+    textarea {
+      box-shadow: 0 0 0 0;
+      border: 1px solid black;
+      outline: 0;
+
+      border-radius: 0.25rem;
+
+      width: 30rem;
+
+      font-size: small;
+      padding: 0.5rem 0.5rem;
+    }
+
+    .input:focus {
+      box-shadow: 0 0 0 0;
+      border: 1px solid purple;
+      outline: 0;
+    }
+
+    textarea:focus {
+      box-shadow: 0 0 0 0;
+      border: 1px solid purple;
+      outline: 0;
+    }
+  }
+
+  button {
+    color: #fff;
+    background: linear-gradient(
+      90deg,
+      rgba(192, 15, 79, 1) 0%,
+      rgba(139, 31, 110, 1) 100%
+    );
+
+    border: none;
+    padding: 0.25rem;
+    width: 15rem;
+
+    display: flex;
+    justify-content: center;
+
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+
+    &:hover {
+      opacity: 0.85;
+      transition: 0.5s;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.table {
+  text-align: left;
+  border-spacing: 0;
+  padding: 1rem;
+
+  .tableData {
+    &:hover {
+      background: rgb(247, 238, 247);
+      color: purple;
+    }
+  }
+
+  tr td:last-child {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  td {
+    padding: 1rem 0;
+    border-bottom: 1px solid rgb(224, 224, 224);
+
+    &::after {
+      border-bottom: 1px solid rgb(224, 224, 224);
+    }
+
+    .action {
+      width: 0.75rem;
+      height: 0.75rem;
+      margin: 0 0.5rem;
+      cursor: pointer;
+    }
+  }
+}
